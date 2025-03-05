@@ -1,4 +1,5 @@
 package main
+# some comments
 
 import (
 	"bytes"

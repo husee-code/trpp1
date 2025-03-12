@@ -15,3 +15,7 @@ install:
 .PHONY: test
 test:
 	go test ./... -race -cover
+
+.PHONY: dev
+dev:
+	go dev ./... -race -cover
